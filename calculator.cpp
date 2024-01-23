@@ -12,7 +12,9 @@ public:
         this->num1 = num1;
         this->num2 = num2;
     }
-    float addition();
+    float addition(float num1, float num2){
+        return num1 + num2;
+    }
     float subtraction();
     float multiplication(float num1, float num2) {
         return num1 * num2;
