@@ -17,7 +17,12 @@ public:
     float multiplication(float num1, float num2) {
         return num1 * num2;
     };
-    float division();
+    float division(float num1, float num2) {
+        if (num2 == 0) {
+            cout << "Zero Division error" << endl;
+        }
+        return num1 / num2;
+    };
 };
 
 
