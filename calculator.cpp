@@ -14,7 +14,9 @@ public:
     }
     float addition();
     float subtraction();
-    float multiplication();
+    float multiplication(float num1, float num2) {
+        return num1 * num2;
+    };
     float division();
 };
 
