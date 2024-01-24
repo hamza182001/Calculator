@@ -16,7 +16,7 @@ public:
         return num1 + num2;
     }
     float subtraction(float num1, float num2) {
-		return num1 + num2;
+		return num1 - num2;
 	}
     float multiplication(float num1, float num2) {
         return num1 * num2;
@@ -31,7 +31,7 @@ public:
 
 
 int main() {
-    Calculator calculator; 
+    Calculator calculator(10.5,5.9); 
 
     int choice = 0;
     cout << "Enter which operation you would like to do" << endl;
